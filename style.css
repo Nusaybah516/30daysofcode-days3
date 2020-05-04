@@ -63,3 +63,34 @@ p{
 input[type="checkbox"]{
     text-align: center;
 }
+
+@media screen and (max-width:601px){
+    div{
+        font-size: 80px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:601px){
+    div{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:320px){
+    h1{
+        width: 250px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:320px){
+    p{
+        width: 250px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
